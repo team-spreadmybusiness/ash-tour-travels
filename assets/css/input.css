@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .container-base {
+        @apply container mx-auto px-16;
+    }
+    .g-cols2 {
+        @apply grid lg:grid-cols-2 gap-6 m-0;
+    }
+    .g-cols3 {
+        @apply grid lg:grid-cols-3 gap-6 m-0;
+    }
+    .g-cols4 {
+        @apply grid lg:grid-cols-4 gap-6 m-0;
+    }
+    .g-cols5 {
+        @apply grid lg:grid-cols-5 gap-6 m-0;
+    }
+
+    .guides .guide-carousel .owl-dots {
+        padding: 10px;
+        text-align: center;
+    }
+    .guides .guide-carousel .owl-dots .owl-dot {
+        padding: 10px;
+        width: 10px;
+        height: 10px;
+        background-color: gray;
+        margin: 5px;
+        border-radius: 50%;
+    }
+    .guides .guide-carousel .owl-dots .owl-dot.active {
+        background-color: blue;
+        width: 12px;
+        height: 12px;
+    }
+    /*searc-menu-tab */
+    .hero-area ul li a.active {
+        border-bottom: 1px solid white;
+    }
+    .hero-area .tab {
+        display: none;
+    }
+    .hero-area .tab.active {
+        display: block;
+    }
+
+    /* menu-tab */
+    .tab-menu .tab-menu-links a.active {
+        background-color: rgb(37, 99, 235);
+        color: white;
+        box-shadow: none;
+    }
+    .tab-menu .menu-tab > div {
+        display: none;
+    }
+    .tab-menu .menu-tab > div.active {
+        display: block;
+    }
+    /* popup */
+    .popup {
+        position: fixed;
+        width: 400px;
+        padding: 20px;
+        display: none;
+    }
+    .popup.show {
+        display: block;
+        animation: showpopup 1s;
+    }
+    .popup .popup-close {
+        position: absolute;
+        cursor: pointer;
+        right: 20px;
+        top: 20px;
+    }
+    @keyframes showpopup {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }  
+    
+    
+}
+
+    
