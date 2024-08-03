@@ -1,0 +1,80 @@
+popup
+one column
+ -make a appointment
+  -name
+  -city
+  -phone
+  -message
+  
+topbar
+three columns
+ 
+first column
+ -contact no
+
+second column 
+ -address
+
+third column 
+ -social media fontawesome  
+
+navbar
+two columns
+
+first column 
+ -logo
+
+second column
+ -home
+ -about us 
+ -doctors
+ -services
+ -disease
+ -News & events
+ -contact us
+
+hero area
+
+service section
+
+
+eyes services in products / carousel
+three columns
+two rows
+1st row
+ -contact eye surgery
+ -lasik & smile surgery
+ -cornea surgery
+
+2nd row
+ -retina treatment
+ -uvea & ocular inflamation treatment
+ -squint & pediatric treatment
+
+
+qulified doctors
+ -1row 4columns
+
+branch sections / carousel
+ -1row 3columns 6data
+
+testimonial / carousel
+ -testimonial heading 
+ -1row 3columns 6data
+
+footer
+ -4 columns in a row
+   1st: logo(content)
+   2nd: specialities
+   3rd: quick links
+   4th: contact us
+
+footer-bottom
+
+
+
+
+
+
+
+

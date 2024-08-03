@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel And Tourisum</title>
+    <!-- fontawesome 6.5.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- owl carousel min.css 2.3.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- owl carousel default min.css 2.3.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- costom css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- popup -->
+    <div class="popup z-10 bg-slate-300/80 rounded bottom-5 right-[10px]">
+        <div class="fa-solid fa-x popup-close text-black hover:text-blue-500 duration-300"></div>
+        <h4 class="text-2xl capitalize font-semibold">sign in</h4>
+        <form action="index.html" class="block">
+            <div class="my-3">
+                <input type="email" placeholder="Email or Username" class="p-2 rounded text-black w-full outline-none">
+            </div>
+            <div class="my-3">
+                <input type="password" placeholder="Password" class="p-2 rounded text-black w-full outline-none">
+            </div>
+            <button class=" bg-blue-500 p-2 rounded hover:bg-blue-600 text-white px-6 duration-200">
+                submit
+            </button>
+        </form>
+        
+    </div>
+    <!-- topbar -->
+    <div class="topbar bg-black px-10 py-3 max-lg:hidden">
+        <div class="g-cols2 text-sm">
+            <div class="contact-detail flex items-center text-slate-300 gap-3">
+                <a href="tel:919910705147" class="border-r border-slate-400 pr-3">
+                    <i class="fa-solid fa-phone"></i>
+                    +(91) 99107-05147
+                </a>
+                <a href="mainto:info@spreadmybusiness.in">
+                    <i class="fa-solid fa-envelope "></i>
+                    travelerwp@gmail.com
+                </a>
+            </div>
+            <div class="flex items-center justify-end text-slate-300">
+                <a href="#" class="inline-block px-5 border-r border-gray-600 hover:text-slate-100 duration-200">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="inline-block px-5 border-r border-gray-600 hover:text-slate-100 duration-200">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="inline-block px-5 border-r border-gray-600 hover:text-slate-100 duration-200">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="inline-block px-5 hover:text-slate-100 duration-200">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <!-- <i class="fa-brands fa-x-twitter cursor-pointer duration-200 border-r border-slate-400 px-5 hover:text-slate-100"></i>
+                <i class="fa-brands fa-youtube cursor-pointer duration-200 border-r border-slate-400 px-5 hover:text-slate-100"></i>
+                <i class="fa-brands fa-whatsapp cursor-pointer duration-200 border-r border-slate-400 px-5 hover:text-slate-100"></i> -->
+            </div>
+        </div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar py-4 sticky left-0 top-0 w-full bg-black/90 z-10">
+        <div class="py-2 px-10 flex items-center justify-between">
+            <div class="navbar-logo text-white text-4xl font-semibold font-serif">
+                Travlers
+                <!-- <img src="assets/imgs/Default-Color-1-NewDemo.svg" class="1/3" alt=""> -->
+            </div>
+            <div class="navbar-menu capitalize max-lg:hidden">
+                <i class="fa-solid fa-bars lg:hidden text-white rounded bg-black"></i>
+                <ul class="flex items-center gap-14 font-semibold text-white">
+                    <li>
+                        <a href="javascript:void(0)" class="hover:text-blue-400 duration-300">home</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="hover:text-blue-400 duration-300">hotel</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="hover:text-blue-400 duration-300">tour</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="hover:text-blue-400 duration-300">activity</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="hover:text-blue-400 duration-300">rental</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="hover:text-blue-400 duration-300">car</a>
+                    </li>
+                <li>
+                        <i class="fa-regular fa-user border w-10 h-10 flex items-center justify-center cursor-pointer rounded-full bg-white text-black hover:bg-slate-100/10 hover:text-white duration-500" id="login"></i>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void(0)" class="bg-cyan-600 text-white rounded-full py-3 px-6 hover:bg-cyan-500 duration-300" id="host">Help Desk</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <!-- hero area -->
+    <div class="hero-area relative">
+        <div class="hero-area-img brightness-50 w-full h-[470px]  border-b-2">
+            <img src="assets/imgs/Red fort.jpg" class="h-full object-cover w-full" alt="">
+        </div>
+
+        <div class="hero-area-content text-center text-white w-1/2 bottom-20 left-1/4 absolute">
+            <h2 class="font-semibold text-6xl">Let the journey begin</h2>
+            <p class="mt-5 font-semibold text-lg">Get the best prices on 20,000+ properties, Delhi</p>
+            <ul class="capitalize flex justify-evenly gap-6 mt-10">
+                <li>
+                    <a href="javascript:void(0)" data-tab="#hotels" class="pb-2 active">hotels</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" data-tab="#tours" class="pb-2">tours</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" data-tab="#activities" class="pb-2">activities</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" data-tab="#rentals" class="pb-2">rentals</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" data-tab="#cars" class="pb-2">cars rentals</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" data-tab="#car-transfer" class="pb-2">car transfer</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu-tab">
+            <div class="tab active" id="hotels">
+                <div class="search-menu flex justify-center">
+                    <div class="rounded-full  w-[70%] absolute p-3 shadow-lg -bottom-8 bg-white mx-auto">
+                        <form action="index.html" class="capitalize flex justify-around">
+                            <div class="pl-4">
+                                <label for="location" class="block">location</label>
+                                <i class="fa-solid fa-location-dot "></i>
+                                <input type="text" placeholder="Where are you going?" class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check in</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check out</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">guests</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="text" placeholder="1 guests, 1 room" class="outline-none">
+                            </div>
+                            <div class="bg-blue-500 flex items-center px-8 justify-between gap-3 rounded-full py-3 hover:bg-blue-600">
+                                <i class="fa-solid fa-magnifying-glass text-sm text-white"></i>
+                                <button class="flex items-center text-white ">
+                                    search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="tours">
+                <div class="search-menu flex justify-center">
+                    <div class="rounded-full  w-[70%] absolute p-3 shadow-lg -bottom-8 bg-white mx-auto">
+                        <form action="index.html" class="capitalize flex justify-around">
+                            
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check in</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check out</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">guests</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="text" placeholder="1 guests, 1 room" class="outline-none">
+                            </div>
+                            <div class="bg-blue-500 flex items-center px-8 justify-between gap-3 rounded-full py-3 hover:bg-blue-600">
+                                <i class="fa-solid fa-magnifying-glass text-sm text-white"></i>
+                                <button class="flex items-center text-white ">
+                                    search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="activities">
+                <div class="search-menu flex justify-center">
+                    <div class="rounded-full  w-[70%] absolute p-3 shadow-lg -bottom-8 bg-white mx-auto">
+                        <form action="index.html" class="capitalize flex justify-around">
+                            <div class="pl-4">
+                                <label for="location" class="block">location</label>
+                                <i class="fa-solid fa-location-dot "></i>
+                                <input type="text" placeholder="Where are you going?" class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check in</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check out</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">guests</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="text" placeholder="1 guests, 1 room" class="outline-none">
+                            </div>
+                            <div class="bg-blue-500 flex items-center px-8 justify-between gap-3 rounded-full py-3 hover:bg-blue-600">
+                                <i class="fa-solid fa-magnifying-glass text-sm text-white"></i>
+                                <button class="flex items-center text-white ">
+                                    search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="rentals">
+                <div class="search-menu flex justify-center">
+                    <div class="rounded-full  w-[70%] absolute p-3 shadow-lg -bottom-8 bg-white mx-auto">
+                        <form action="index.html" class="capitalize flex justify-around">
+                            
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check in</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check out</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">guests</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="text" placeholder="1 guests, 1 room" class="outline-none">
+                            </div>
+                            <div class="bg-blue-500 flex items-center px-8 justify-between gap-3 rounded-full py-3 hover:bg-blue-600">
+                                <i class="fa-solid fa-magnifying-glass text-sm text-white"></i>
+                                <button class="flex items-center text-white ">
+                                    search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="cars">
+                <div class="search-menu flex justify-center">
+                    <div class="rounded-full  w-[70%] absolute p-3 shadow-lg -bottom-8 bg-white mx-auto">
+                        <form action="index.html" class="capitalize flex justify-around">
+                            <div class="pl-4">
+                                <label for="location" class="block">location</label>
+                                <i class="fa-solid fa-location-dot "></i>
+                                <input type="text" placeholder="Where are you going?" class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check in</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check out</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">guests</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="text" placeholder="1 guests, 1 room" class="outline-none">
+                            </div>
+                            <div class="bg-blue-500 flex items-center px-8 justify-between gap-3 rounded-full py-3 hover:bg-blue-600">
+                                <i class="fa-solid fa-magnifying-glass text-sm text-white"></i>
+                                <button class="flex items-center text-white ">
+                                    search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="car-transfer">
+                <div class="search-menu flex justify-center">
+                    <div class="rounded-full  w-[70%] absolute p-3 shadow-lg -bottom-8 bg-white mx-auto">
+                        <form action="index.html" class="capitalize flex justify-around">
+                           
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check in</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">check out</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="date"  class="outline-none">
+                            </div>
+                            <div class="hover:text-blue-400 duration-300">
+                                <label for="location" class="block">guests</label>
+                                <!-- <i class="fa-regular fa-arrow-down"></i> -->
+                                <input type="text" placeholder="1 guests, 1 room" class="outline-none">
+                            </div>
+                            <div class="bg-blue-500 flex items-center px-8 justify-between gap-3 rounded-full py-3 hover:bg-blue-600">
+                                <i class="fa-solid fa-magnifying-glass text-sm text-white"></i>
+                                <button class="flex items-center text-white ">
+                                    search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- two cards -->
+    <div class="cards my-16">
+        <div class="container-base">
+            <div class="g-cols2">
+                <div class="offer rounded-lg">
+                    <img src="assets/imgs/Frame-3151-min.png" class="cursor-pointer rounded-lg" alt="">
+                </div>
+                <div class="disscount rounded-lg">
+                    <img src="assets/imgs/card-img.png" class="cursor-pointer rounded-lg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hover cards -->
+    <div class="cards">
+        <div class="container-base">
+            <h2 class="text-4xl font-semibold text-center">Top destinations</h2>
+            <div class="g-cols3 mt-16 ">
+                <div class="card rounded-lg relative overflow-hidden cursor-pointer">
+                    <div class="card-img rounded-lg brightness-50 hover:scale-125 duration-500 h-52">
+                        <img src="assets/imgs/Kutub Minar.jpg" class="rounded-lg h-full " alt="">
+                    </div>
+                    <div class="card-content absolute top-1/3 text-white p-3">
+                        <div class="areas-info capitalize gap-8 text-center">
+                            <h2 class="text-2xl">Kutub Minar</h2>
+                            <span>14 hotles</span>
+                            <span>22 tours</span>
+                            <span>22 rentals</span>
+                            <span>25 cars</span>
+                            <span>18 activites</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-lg relative overflow-hidden cursor-pointer">
+                    <div class="card-img rounded-lg brightness-50 hover:scale-125 duration-500 h-52">
+                        <img src="assets/imgs/Bara gumbad.jpg" class="rounded-lg  " alt="">
+                    </div>
+                    <div class="card-content absolute top-1/3 text-white p-3">
+                        <div class="areas-info capitalize gap-8 text-center">
+                            <h2 class="text-2xl">bara gumbad</h2>
+                            <span>7 hotles</span>
+                            <span>15 tours</span>
+                            <span>15 rentals</span>
+                            <span>22 cars</span>
+                            <span>18 activites</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-lg relative overflow-hidden cursor-pointer">
+                    <div class="card-img rounded-lg brightness-50 hover:scale-125 duration-500 h-full h-52">
+                        <img src="assets/imgs/Red fort.jpg" class="rounded-lg  " alt="">
+                    </div>
+                    <div class="card-content absolute top-1/3 text-white p-3">
+                        <div class="areas-info capitalize gap-8 text-center">
+                            <h2 class="text-2xl">red fort</h2>
+                            <span>7 hotles</span>
+                            <span>18 tours</span>
+                            <span>11 rentals</span>
+                            <span>14 cars</span>
+                            <span>17 activites</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="g-cols3 mt-8">
+                <div class="card rounded-lg relative cursor-pointer">
+                    <div class="card-img rounded-lg brightness-50 overflow-hidden h-52">
+                        <img src="assets/imgs/Humayu tomp.jpg" class="rounded-lg hover:scale-125 duration-500 h-full" alt="">
+                    </div>
+                    <div class="card-content absolute top-1/3 text-white p-3">
+                        <div class="areas-info capitalize gap-8 text-center">
+                            <h2 class="text-2xl">humayu tomp</h2>
+                            <span>13 hotles</span>
+                            <span>23 tours</span>
+                            <span>18 rentals</span>
+                            <span>21 cars</span>
+                            <span>19 activites</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-lg relative cursor-pointer">
+                    <div class="card-img rounded-lg brightness-50 overflow-hidden h-52">
+                        <img src="assets/imgs/India gate.jpg" class="rounded-lg  hover:scale-125 duration-500 h-full" alt="">
+                    </div>
+                    <div class="card-content absolute top-1/3 text-white p-3">
+                        <div class="areas-info capitalize gap-8 text-center">
+                            <h2 class="text-2xl">india gate</h2>
+                            <span>5 hotles</span>
+                            <span>13 tours</span>
+                            <span>15 rentals</span>
+                            <span>16 cars</span>
+                            <span>13 activites</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-lg relative cursor-pointer">
+                    <div class="card-img rounded-lg brightness-50 overflow-hidden h-52">
+                        <img src="assets/imgs/Lodi garden.jpg" class="rounded-lg hover:scale-125 duration-500 h-full" alt="">
+                    </div>
+                    <div class="card-content absolute top-1/3 text-white p-3">
+                        <div class="areas-info capitalize gap-8 text-center">
+                            <h2 class="text-2xl">lodi garden</h2>
+                            <span>11 hotles</span>
+                            <span>20 tours</span>
+                            <span>20 rentals</span>
+                            <span>18 cars</span>
+                            <span>15 activites</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tab menu -->
+    <div class="tab-menu p-16 my-16 bg-slate-100">
+        <h2 class="text-3xl text-center font-semibold">Recommeded for you</h2>
+        <div class="tab-menu-links capitalize flex justify-center gap-4 my-8">
+            <a href="javascript:void(0)" data-menu="#hotel" class="bg-white text-black border px-6 py-3 rounded-lg active hover:shadow-lg duration-300">
+                hotel
+            </a>
+            <a href="javascript:void(0)" data-menu="#tour" class="bg-white border text-black px-6 py-3 rounded-lg hover:shadow-md duration-300">
+                tour
+            </a>
+            <a href="javascript:void(0)" data-menu="#activity" class="bg-white border text-black px-6 py-3 rounded-lg hover:shadow-md duration-300">
+                activity
+            </a>
+            <a href="javascript:void(0)" data-menu="#rental" class="bg-white border text-black px-6 py-3 rounded-lg hover:shadow-md duration-300">
+                rental
+            </a>
+            <a href="javascript:void(0)" data-menu="#car" class="bg-white border text-black px-6 py-3 rounded-lg hover:shadow-md duration-300">
+                car
+            </a>
+        </div>
+
+        <div class="menu-tab">
+            <div class="options active" id="hotel">
+                <div class="g-cols3 acitve">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Andaz hotel.png" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                andaz hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Red fox hotel.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                red fox hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹20000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/The-Lalit hotel.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                laleet hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹12000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-cols3 mt-6">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Hyaat regency hotel.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                hyaat regency hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹16000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Jw marriott hotel.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                JW marriott
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(2 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹13600</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Leela palace hotel.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                leela palace hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15400</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="options" id="tour">
+                <div class="g-cols3 mt-6">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Kutub Minar.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                hyaat regency hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹16000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Bara gumbad.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                JW marriott
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(2 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹13600</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Red fort.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                leela palace hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15400</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-cols3 acitve">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Humayu tomp.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                andaz hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/India gate.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                red fox hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹20000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/Lodi garden.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                laleet hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹12000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="options" id="activity">
+                <div class="g-cols3 acitve">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/activity-section1.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                andaz hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/activity-section2.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                red fox hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹20000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/activity-section3.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                laleet hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹12000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-cols3 mt-6">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/activity-section4.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                hyaat regency hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹16000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/activity-section5.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                JW marriott
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(2 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹13600</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/activity-section6.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                leela palace hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15400</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="options" id="rental">
+                <div class="g-cols3 mt-6">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/rentroom1.webp" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                hyaat regency hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹16000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/rentroom2.jpeg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                JW marriott
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(2 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹13600</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/rentroom3.jpeg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                leela palace hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15400</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-cols3 acitve">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/rentroom4.webp" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                andaz hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/rentroom5.avif" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                red fox hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹20000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/rentroom6.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                laleet hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹12000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="options" id="car">
+                <div class="g-cols3 acitve">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/carrent1.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                andaz hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/carrent2.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                red fox hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹20000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/carrent3.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                laleet hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹12000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-cols3 mt-6">
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/carrent4.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                hyaat regency hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north east delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(3 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹16000</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/carrent5.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                JW marriott
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                north west delhi
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(2 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹13600</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                        <div class="card-img overflow-hidden h-[250px]">
+                            <img src="assets/imgs/carrent6.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                        </div>
+                        <div class="like-btn absolute top-4 right-4">
+                            <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                        </div>
+                        <div class="card-content capitalize p-4 space-y-2">
+                            <div class="star-fonts flex text-sm">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                            </div>
+                            <h2 class="text-lg font-semibold cursor-pointer hover:text-blue-500 duration-300">
+                                leela palace hotel
+                            </h2>
+                            <div class="city text-sm text-slate-500 border-b border-slate-300 pb-4">
+                                south west
+                            </div>
+                            <div class="review text-sm space-x-1 pt-3 ">
+                                <span class="border text-blue-500 p-2 rounded-lg font-semibold">5/5</span>
+                                <span class="text-black font-semibold">excellent</span>
+                                <span class="text-slate-500">(5 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span>
+                                    <span class="text-slate-500 text-sm">
+                                        from : <span class="font-semibold text-black" >₹15400</span> /night
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- number menu -->
+    <!-- carousel -->
+    <div class="guides">
+        <div class="container-base">
+            <div class="guide-btn flex justify-between">
+                <h2 class="text-4xl font-semibold">Stories, tips, and guides</h2>
+    
+                <div class="btns">
+                    <button class="border px-4 py-2 shadow-lg rounded-full bg-slate-200 hover:bg-white duration-500" id="product-prev">
+                        <i class="fas fa-angle-left"></i>
+                    </button>
+                    <button class="border px-4 py-2 shadow-lg rounded-full bg-slate-200 hover:bg-white duration-500" id="product-next">
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="owl-carousel guide-carousel my-8">
+                <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                    <div class="card-img overflow-hidden h-[300px]">
+                        <img src="assets/imgs/menu4.png" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                    </div>
+                    <div class="like-btn absolute top-4 right-4">
+                        <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                    </div>
+                    <div class="card-content capitalize p-4 space-y-2 text-slate-400">
+                        <button class="type border bg-slate-200 text-blue-700 px-6 py-2 rounded-full hover:bg-slate-300 duration-300">Hotel</button>
+                        <p class="overview text-lg text-black font-semibold hover:text-blue-800 duration-300">
+                            It was exceptionally nice to experience the excellent vacation
+                        </p>
+                        <p class="text-sm">
+                            May thanks for helping us for arranging this visit. 
+                        </p>
+                    </div>
+                </div>
+                <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                    <div class="card-img overflow-hidden h-[300px]">
+                        <img src="assets/imgs/delhi map3.webp" class="h-full w-full object-contain rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                    </div>
+                    <div class="like-btn absolute top-4 right-4">
+                        <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                    </div>
+                    <div class="card-content capitalize p-4 space-y-2 text-slate-400">
+                        <button class="type border bg-slate-200 text-amber-700 px-6 py-2 rounded-full hover:bg-slate-300 duration-300">Booking</button>
+                        <p class="overview text-lg text-black font-semibold hover:text-blue-800 duration-300">
+                            The Ultimate Cheat Sheet on Travel
+                        </p>
+                        <p class="text-sm">
+    					    relocated by your company, it can seem daunting to visit…
+                        </p>
+                    </div>
+                </div>
+                <div class="card border rounded-lg bg-white relative overflow-hidden group">
+                    <div class="card-img overflow-hidden h-[300px]">
+                        <img src="assets/imgs/travel.jpg" class="h-full w-full object-cover rounded-t-lg group-hover:scale-125 duration-700" alt="">
+                    </div>
+                    <div class="like-btn absolute top-4 right-4">
+                        <i class="fa-regular fa-heart cursor-pointer text-white text-xl "></i>
+                    </div>
+                    <div class="card-content capitalize p-4 space-y-2 text-slate-400">
+                        <button class="type border bg-slate-200 text-green-700 px-6 py-2 rounded-full hover:bg-slate-300 duration-300">Travel</button>                        
+                        <p class="overview text-lg text-black font-semibold hover:text-blue-800 duration-300">
+                            Meet the Steve Jobs of the Travel Industry
+                        </p>
+                        <p class="text-sm">
+        					It was a good trip. Only miss out was Red Fort as my Son got tired and hence couldn't complete the plan. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cards -->
+     <div class="login-card">
+        <div class="container-base">
+            <div class="g-cols2 rounded-lg border">
+                <div class="card-img">
+                    <img src="assets/imgs/login page.jpg" class="rounded-l-lg h-full" alt="">
+                </div>
+                <div class="login-form text-center mt-6">
+                    <h1 class="text-4xl font-semibold">
+                        Get special offers, and more from Traveler
+                    </h1>
+                    <p class="description text-slate-600 my-3">
+                        Subscribe to see secret deals prices drop the moment you sign up!
+                    </p>
+                    <!-- <div class="email-login border rounded-lg"> -->
+                        <form action="index.html" class="border rounded-full flex justify-between px-4">
+                            <input type="email" placeholder="Email Address" class="outline-none">
+                            <button class="rounded-full my-2 py-3 px-6 bg-blue-600 text-white hover:bg-blue-700 duration-300">
+                                Subscribe
+                            </button>
+                        </form>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- footer -->
+    <footer class="footer bg-slate-100 mt-10 py-6">
+        <div class="container-base">
+            <div class="g-cols4">
+                <div class="support-links capitalize">
+                    <h6 class="text-lg text-black">support</h6>
+                    <ul class="mt-3 leading-8 text-gray-500">
+                        <li class="duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">help center</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">our COVID-19 response </a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">cancellation options</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">safety system</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="company-links capitalize">
+                    <h6 class="text-lg text-black">company</h6>
+                    <ul class="mt-3 leading-6 text-gray-500">
+                        <li class="duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">about us</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">community blog</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">careers</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">privacy policy</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">terms of service</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="contact-links capitalize">
+                    <h6 class="text-lg text-black">contact</h6>
+                    <ul class="mt-3 leading-6 text-gray-500">
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">partnerships</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">FAQ</a>
+                        </li>
+                        <li class=" duration-300 ease-linear hover:translate-x-3 hover:text-cyan-600">
+                            <a href="javascript:void(0)">get in touch</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-info capitalize">
+                    <h6 class="text-lg text-black">social</h6>
+                    <ul class="mt-3 leading-7 text-gray-400 text-sm flex gap-6">
+                        <li>
+                            <i class="fa-brands fa-instagram flex justify-center items-center rounded-full cursor-pointer w-10 h-10 bg-pink-700 text-white hover:bg-pink-600"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-facebook-f flex justify-center items-center rounded-full cursor-pointer w-10 h-10 bg-blue-700 text-white hover:bg-blue-600"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-youtube flex justify-center items-center rounded-full cursor-pointer w-10 h-10 bg-red-600 text-white hover:bg-red-500"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-x-twitter flex justify-center items-center rounded-full cursor-pointer w-10 h-10 bg-black text-white hover:bg-slate-700"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer bottom -->
+    <div class="footer-bottom bg-slate-100 capitalize">
+        <div class="container-base flex justify-between text-gray-500 border-t-2 py-3 max-lg:block">
+            <span>
+                copyright &copy; to travlers all right reserved
+            </span>
+            <span>
+                made with <i class="fas fa-heart text-red-500"></i> <a href="https://spreadmycareer.in/">SpreadMyBuisness</a>
+            </span>
+        </div>
+    </div>
+</body>
+<!-- jqyuery 3.7.1 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- owl carousel min.js 2.3.4 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- costom js -->
+<script src="assets/js/js.js"></script>
+</html>
